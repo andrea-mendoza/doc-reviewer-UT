@@ -8,3 +8,12 @@ class ActiveSupport::TestCase
  
   # Add more helper methods to be used by all tests here...
 end
+
+
+require 'simplecov'
+SimpleCov.start 'rails' do
+  add_filter '/bin/'
+  add_filter '/db/'
+  add_filter '/spec/' # for rspec
+  add_filter '/test/' # for minitest
+end
