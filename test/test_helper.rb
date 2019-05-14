@@ -10,10 +10,16 @@ class ActiveSupport::TestCase
 end
 
 
+require 'coveralls'
 require 'simplecov'
+
+SimpleCov.formatter = Coveralls::SimpleCov::Formatter
 SimpleCov.start 'rails' do
   add_filter '/bin/'
   add_filter '/db/'
   add_filter '/spec/' # for rspec
   add_filter '/test/' # for minitest
+  add_filter 'app/secrets'
 end
+
+Coveralls.wear!('rails')

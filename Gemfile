@@ -93,3 +93,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :coverage do
   gem 'simplecov', require: false
 end
+
+gem 'coveralls', require: false
