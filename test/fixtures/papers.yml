@@ -2,9 +2,9 @@
 
 one:
   id: 1
-  title: MyString
-  resume: MyText
-  user: one
+  title: Mi documento
+  resume: Este es mi primer documento
+  user: juan.pablo@sandoval.com
   event: one
 
 two:
