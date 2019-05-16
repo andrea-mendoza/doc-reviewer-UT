@@ -1,14 +1,14 @@
 require 'coveralls'
 require 'simplecov'
 
-SimpleCov.formatter = Coveralls::SimpleCov::Formatter
+# SimpleCov.formatter = Coveralls::SimpleCov::Formatter
 SimpleCov.start 'rails' do
   add_filter '/bin/'
   add_filter '/db/'
   add_filter '/test/' # for minitest
 end
 
-Coveralls.wear!('rails')
+# Coveralls.wear!('rails')
 
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
