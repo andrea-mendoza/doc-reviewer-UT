@@ -8,7 +8,7 @@ class PaperTest < ActiveSupport::TestCase
   end
 
   test "belongs an user" do
-    assert_equal @paper.user , "juan.pablo@sandoval.com "
+    assert_equal @paper.user. , "juan.pablo@sandoval.com "
   end
 
   test "has a title" do
@@ -20,7 +20,7 @@ class PaperTest < ActiveSupport::TestCase
   end
 
   test "has a resume" do
-    assert_equal @paper.user , "Este es mi primer documento"
+    assert_equal @paper.resume , "Este es mi primer documento"
   end
   
 end
