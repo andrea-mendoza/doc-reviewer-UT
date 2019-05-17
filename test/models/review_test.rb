@@ -19,12 +19,13 @@ class ReviewTest < ActiveSupport::TestCase
   end
 
   test "has a specific definition " do
-    assert_equal @review.general_def , "Specific 1"
+    assert_equal @review.specific_def , "Specific 1"
   end
 
-  
+  test "has a  confidence " do
+    assert_equal @review.confidence , "Confidence 1"
+  end
  
-  # specific_def: Specific 1
   # confidence: Confidence 1
   # general_evaluation: Good
   # personal_message: Good job
