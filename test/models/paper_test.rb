@@ -5,10 +5,11 @@ class PaperTest < ActiveSupport::TestCase
 
   def setup
     @paper = papers(:one)
+    @user = users(:one)
   end
 
   test "belongs an user" do
-    assert_equal @paper.user.email , "juan.pablo@sandoval.com"
+    assert_equal @paper.user , @user
   end
 
   test "has a title" do
