@@ -4,7 +4,7 @@ one:
   id: 1
   title: Mi documento
   resume: Este es mi primer documento
-  user: users(:one)
+  user: one
   event: one
 
 two:
