@@ -16,10 +16,6 @@ class PaperTest < ActiveSupport::TestCase
     assert_equal @paper.title , "Mi documento"
   end
 
-  # test "belongs an event" do
-  #   assert_equal @paper.event , "one"
-  # end
-
   test "has a resume" do
     assert_equal @paper.resume , "Este es mi primer documento"
   end
