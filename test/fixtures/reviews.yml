@@ -1,14 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  relevance: High
-  problem_def: Problem 1
-  general_def: General 1
-  specific_def: Specific 1
-  confidence: Confidence 1
-  general_evaluation: Good
-  personal_message: Good job
   paper: one
+  user: one
+  survery: one
 
 # two:
 #   relevance: MyString
