@@ -4,6 +4,7 @@ class ReviewTest < ActiveSupport::TestCase
 
   def setup
     @review = reviews(:one)
+    @paper = papers(:one)
   end
 
   test "has relevance " do
@@ -34,7 +35,10 @@ class ReviewTest < ActiveSupport::TestCase
     assert_equal @review.personal_message , "Good job"
   end
 
- 
+  test "has a  paper " do
+    assert_equal @review.paper , @paper
+  end
+
 
   # paper: one
 end
