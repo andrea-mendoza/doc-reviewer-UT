@@ -30,7 +30,11 @@ class ReviewTest < ActiveSupport::TestCase
     assert_equal @review.general_evaluation , "Good"
   end
 
-  # general_evaluation: Good
-  # personal_message: Good job
+  test "has a  personal message" do
+    assert_equal @review.personal_message , "Good job"
+  end
+
+ 
+
   # paper: one
 end
