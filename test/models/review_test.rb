@@ -26,7 +26,10 @@ class ReviewTest < ActiveSupport::TestCase
     assert_equal @review.confidence , "Confidence 1"
   end
  
-  # confidence: Confidence 1
+  test "has a  general evaluation " do
+    assert_equal @review.general_evaluation , "Good"
+  end
+
   # general_evaluation: Good
   # personal_message: Good job
   # paper: one
