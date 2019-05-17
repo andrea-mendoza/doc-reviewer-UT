@@ -9,7 +9,7 @@ class PaperTest < ActiveSupport::TestCase
   end
 
   test "belongs an user" do
-    assert_equal @paper.user , "one"
+    assert_equal @paper.user , @user
   end
 
   test "has a title" do
