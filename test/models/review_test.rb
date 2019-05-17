@@ -18,10 +18,12 @@ class ReviewTest < ActiveSupport::TestCase
     assert_equal @review.general_def , "General 1"
   end
 
+  test "has a specific definition " do
+    assert_equal @review.general_def , "Specific 1"
+  end
+
   
-  # relevance: High
-  # problem_def: Problem 1
-  # general_def: General 1
+ 
   # specific_def: Specific 1
   # confidence: Confidence 1
   # general_evaluation: Good
