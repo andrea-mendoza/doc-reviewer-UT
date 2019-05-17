@@ -10,9 +10,15 @@ class ReviewTest < ActiveSupport::TestCase
     assert_equal @review.relevance , "High"
   end
 
-  test "has problem defined " do
+  test "has a problem " do
     assert_equal @review.problem_def , "Problem 1"
   end
+
+  test "has a general definition " do
+    assert_equal @review.general_def , "General 1"
+  end
+
+  
   # relevance: High
   # problem_def: Problem 1
   # general_def: General 1
