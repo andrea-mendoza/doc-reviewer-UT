@@ -2,10 +2,10 @@
 
 one:
   description: First question
-  max_score: 0
+  max_score: 2
   survey: one
 
 two:
   description: First question
-  max_score: 0
+  max_score: 2
   survey: one

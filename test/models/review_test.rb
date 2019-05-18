@@ -14,8 +14,8 @@ class ReviewTest < ActiveSupport::TestCase
     assert_equal @user, @review.user
   end
 
-  test "final score initial should be 0 " do
-    assert_equal 0, @review.final_score
+  test "final score   " do
+    assert_equal 1.5, @review.final_score
   end
 
 
