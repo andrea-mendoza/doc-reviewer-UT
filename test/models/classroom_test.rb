@@ -5,11 +5,6 @@ class ClassroomTest < ActiveSupport::TestCase
 
   def setup
     @classroom = classrooms(:one)
-    @paper = papers(:one)
-  end
-
-  test "belongs an paper" do
-    assert_equal @paper.paper , @paper
   end
 
   test "enter an ambient" do
@@ -17,7 +12,7 @@ class ClassroomTest < ActiveSupport::TestCase
   end
 
   test "choose a date" do
-    assert_equal @classroom.defense_date , " Sat, 03 Nov 2018"
+    assert_equal @classroom.defense_date , "Sat, 03 Nov 2018"
   end
 
   test "choose a hour" do
