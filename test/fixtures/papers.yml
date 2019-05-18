@@ -2,8 +2,8 @@
 
 one:
   id: 1
-  title: MyString
-  resume: MyText
+  title: Mi documento
+  resume: Este es mi primer documento
   user: one
   event: one
 
