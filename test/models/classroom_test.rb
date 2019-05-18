@@ -9,15 +9,15 @@ class ClassroomTest < ActiveSupport::TestCase
   end
 
   test "enter an ambient" do
-    assert_equal @classroom.ambient , "AP-2"
+    assert_equal @classroom.ambient , "MyString"
   end
 
   test "choose a date" do
-    assert_equal @classroom.defense_date , "26 Abr, 2019"
+    assert_equal @classroom.defense_date , "Sat, 03 Nov 2018"
   end
 
   test "choose a hour" do
-    assert_equal @classroom.defense_hour , "03:30 PM"
+    assert_equal @classroom.defense_hour , "Sat, 01 Jan 2000 08:46:06 -04 -04:00"
   end
 
   test "belongs an paper" do
