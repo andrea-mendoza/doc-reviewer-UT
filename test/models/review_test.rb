@@ -18,5 +18,9 @@ class ReviewTest < ActiveSupport::TestCase
     assert_equal 1.5, @review.final_score
   end
 
+  test "build evaluation  " do
+    
+    assert_equal @review.build_evaluation(@question), @review.final_score
+  end
 
 end
