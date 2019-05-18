@@ -6,11 +6,11 @@ class ReviewTest < ActiveSupport::TestCase
 
   def setup
     @review = reviews(:one)
-    @paper = papers(:one)
+    @user = users(:one)
   end
 
-  test "has a  paper " do
-    assert_equal @review.paper , "one"
+  test "has a  user " do
+    assert_equal @user, @review.user
   end
 
 
