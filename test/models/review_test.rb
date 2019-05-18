@@ -19,9 +19,16 @@ class ReviewTest < ActiveSupport::TestCase
     assert_equal 1.5, @review.final_score
   end
 
-  test "final scobuild evaluation  " do
-    
+  test "build evaluation  " do
     assert_equal @review.build_evaluation(@question), @evaluation
+  end
+
+  test "select quantitative evaluations  " do
+    assert_equal @review.quantitative_evaluations(@question), @evaluation
+  end
+
+  test "select qualitative evaluations  " do
+    assert_equal @review.qualitative_evaluations(@question), @evaluation
   end
 
 end
