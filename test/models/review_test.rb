@@ -24,11 +24,11 @@ class ReviewTest < ActiveSupport::TestCase
   end
 
   test "select quantitative evaluations  " do
-    assert_equal @review.quantitative_evaluations(@question), @evaluation
+    assert_equal @review.quantitative_evaluations(), @evaluation
   end
 
   test "select qualitative evaluations  " do
-    assert_equal @review.qualitative_evaluations(@question), @evaluation
+    assert_equal @review.qualitative_evaluations(), @evaluation
   end
 
 end
