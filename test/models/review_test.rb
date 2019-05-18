@@ -8,6 +8,7 @@ class ReviewTest < ActiveSupport::TestCase
     @review = reviews(:one)
     @user = users(:one)
     @question = questions(:one)
+    @evaluation = evaluations(:one)
   end
 
   test "has a  user " do
@@ -18,9 +19,9 @@ class ReviewTest < ActiveSupport::TestCase
     assert_equal 1.5, @review.final_score
   end
 
-  test "build evaluation  " do
+  test "final scobuild evaluation  " do
     
-    assert_equal @review.build_evaluation(@question), @review.final_score
+    assert_equal @review.build_evaluation(@question), @evaluation
   end
 
 end
