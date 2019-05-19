@@ -23,10 +23,5 @@ class QuestionTest < ActiveSupport::TestCase
     assert_equal 2, @question.is_quantitative? 
   end
 
-  
-
-  test "default type " do
-    assert_equal "Quantitative", @question.default_type
-  end
 
 end
