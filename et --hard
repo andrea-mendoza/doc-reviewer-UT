@@ -1,0 +1,158 @@
+[33mcommit 5151f866088c053506721df9efecd2a6ae07c366[m[33m ([m[1;36mHEAD -> [m[1;32mclassroomTest[m[33m, [m[1;31morigin/classroomTest[m[33m)[m
+Author: Maria de los Angeles Gallardo <maye.gallardoger@gmail.com>
+Date:   Fri May 17 21:45:51 2019 -0400
+
+    classroom tests
+
+[33mcommit 129c1f0734146b9256429e7e8f4da25e58e1d936[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 7f168dd e833c13
+Author: andrea-mendoza <33790016+andrea-mendoza@users.noreply.github.com>
+Date:   Fri May 17 00:20:52 2019 -0400
+
+    Merge pull request #1 from andrea-mendoza/PaperTest
+    
+    Paper test
+
+[33mcommit e833c13585ae11c67a6013d11acd168654d01d1f[m[33m ([m[1;31morigin/PaperTest[m[33m)[m
+Author: Julia1297 <valita129@gmail.com>
+Date:   Fri May 17 00:02:11 2019 -0400
+
+    Fixing tests
+
+[33mcommit bcf06053ca87bcedd0dfbadd768711f90175f722[m
+Author: Julia1297 <valita129@gmail.com>
+Date:   Thu May 16 23:52:23 2019 -0400
+
+    Fixing tests
+
+[33mcommit fe52bc3638624b2232d91e8b36c30171fafe4eb2[m
+Author: Julia1297 <valita129@gmail.com>
+Date:   Thu May 16 23:45:42 2019 -0400
+
+    Fixing tests
+
+[33mcommit 8cf817ea5b9415649b82df2fa0fab64a821e939c[m
+Author: Julia1297 <valita129@gmail.com>
+Date:   Thu May 16 23:39:27 2019 -0400
+
+    Fixing tests
+
+[33mcommit 33c34eb53e57efe03117d1c538fdcf43b5866260[m
+Author: Julia1297 <valita129@gmail.com>
+Date:   Thu May 16 23:34:03 2019 -0400
+
+    Belongs an user
+
+[33mcommit f43a1afb2529a08d66ba9dcbdc89a312a82e2ecd[m
+Author: Julia1297 <valita129@gmail.com>
+Date:   Thu May 16 00:20:14 2019 -0400
+
+    Fixing tests
+
+[33mcommit 610681eadae3327d1803177b8ac5fcec12617544[m
+Author: Julia1297 <valita129@gmail.com>
+Date:   Thu May 16 00:15:34 2019 -0400
+
+    Fixing tests
+
+[33mcommit 7655fd3a05601db17cf5e53b9731aa772f2f5db2[m
+Author: Julia1297 <valita129@gmail.com>
+Date:   Thu May 16 00:03:27 2019 -0400
+
+    Tests
+
+[33mcommit 7f168dd59db876c468fe28ee786162055e18265a[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Wed May 15 23:41:05 2019 -0400
+
+    user test
+
+[33mcommit 6a6533aed7065cd28f9f27c682af38cd9d187a37[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Tue May 14 21:11:07 2019 -0400
+
+    fixing coverage
+
+[33mcommit c341554149c431610a6c5b2386a2ab638178e0f9[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Tue May 14 11:20:40 2019 -0400
+
+    complete name test
+
+[33mcommit fc36b9e349ca50cde50aaf30eecce47ac9a66a0c[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Mon May 13 23:32:36 2019 -0400
+
+    coverage travis
+
+[33mcommit af3c3439bceeabe9749f829574680791b9edef22[m
+Author: andrea-mendoza <33790016+andrea-mendoza@users.noreply.github.com>
+Date:   Mon May 13 23:27:04 2019 -0400
+
+    Delete Gemfile.lock
+
+[33mcommit bf765d18dd6ba45e96ac5aa33b7c8808eab039bf[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Mon May 13 20:22:58 2019 -0400
+
+    coverage
+
+[33mcommit cc56aa9c62bfe8c8e5c6f8900b3fd22e29c78fb1[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Mon May 13 17:52:42 2019 -0400
+
+    change
+
+[33mcommit df8b985dae63cb121bddb945796a866e34dc8ad7[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Mon May 13 17:45:26 2019 -0400
+
+    changes
+
+[33mcommit 22a0d2a5865dff611eb247247651e413e0a99ece[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Mon May 13 17:40:56 2019 -0400
+
+    changes
+
+[33mcommit f8d3220a28ae8c518f2144f2cd175ab374b7e09e[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Mon May 13 17:36:00 2019 -0400
+
+    changes
+
+[33mcommit ceaaa23fa61be8aea36a3cb66005f904df43704d[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Mon May 13 17:26:36 2019 -0400
+
+    changes
+
+[33mcommit cc9ff03b5047193ac7719c294f0ea96a5c0dad04[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Mon May 13 17:18:07 2019 -0400
+
+    changes
+
+[33mcommit 742e14e818f78f3697995f8e59259b805ba161d7[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Mon May 13 17:12:57 2019 -0400
+
+    minitest
+
+[33mcommit e3924d9dfd0a5cb3073b827de9a8950f5f2dc38d[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Thu May 9 10:13:59 2019 -0400
+
+    travis
+
+[33mcommit 9a7d31be3fa9fc06b1c911497da4eda4a9f58a1d[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Thu May 9 09:15:06 2019 -0400
+
+    finxing test
+
+[33mcommit bc19de487d3720e71ffbf57e46df8f7ee993a4e3[m
+Author: andymehi <andymehi@hotmail.com>
+Date:   Thu May 9 09:05:07 2019 -0400
+
+    initial commit
