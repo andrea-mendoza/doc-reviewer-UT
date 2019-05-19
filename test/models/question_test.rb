@@ -19,4 +19,12 @@ class QuestionTest < ActiveSupport::TestCase
     assert_equal 2, @question.is_quantitative? 
   end
 
+  test "display type " do
+    assert_equal "Quantitative", @question.display_type
+  end
+
+  test "self default type " do
+    assert_equal "Quantitative", @question.self.display_type
+  end
+
 end
