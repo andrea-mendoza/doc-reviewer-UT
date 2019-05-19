@@ -6,14 +6,16 @@ class SurveyTest < ActiveSupport::TestCase
   def setup
     @survey = surveys(:one)
     @question = questions(:one) 
-end
+  end
 
-test "enter an name" do
-  assert_equal @survey.name , "FirstProfileRevision"
-end
+  test "enter an name" do
+    assert_equal @survey.name , "FirstProfileRevision"
+  end
 
-test "select quantitative surveys  " do
-  assert_equal @survey.quantitative_questions(), [@question]
+  test "select quantitative surveys  " do
+    assert_equal @survey.quantitative_questions(), [@question]
+  end
+  
 end
 
 
