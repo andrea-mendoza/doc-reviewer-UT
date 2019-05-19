@@ -15,16 +15,18 @@ class QuestionTest < ActiveSupport::TestCase
     assert_equal 2, @question.max_score
   end
 
+  test "display type " do
+    assert_equal "Type not set", @question.display_type
+  end
+
   test "is quantitative " do
     assert_equal 2, @question.is_quantitative? 
   end
 
-  test "display type " do
-    assert_equal "Quantitative", @question.display_type
-  end
+  
 
-  test "self default type " do
-    assert_equal "Quantitative", @question.self.display_type
+  test "default type " do
+    assert_equal "Quantitative", @question.default_type
   end
 
 end
