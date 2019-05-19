@@ -12,10 +12,10 @@ class SurveyTest < ActiveSupport::TestCase
     assert_equal @survey.name , "FirstProfileRevision"
   end
 
-  test "select quantitative surveys  " do
+  test "select quantitative questions" do
     assert_equal @survey.quantitative_questions(), [@question]
   end
-  
+
 end
 
 
