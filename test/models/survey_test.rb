@@ -11,9 +11,6 @@ test "enter an name" do
   assert_equal @survey.name , "FirstProfileRevision"
 end
 
-test "enter a questions_attributes" do
-  assert_equal @survey.questions_attributes , {" "}
-end
 
 
 end
