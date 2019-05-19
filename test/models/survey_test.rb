@@ -4,7 +4,8 @@ class SurveyTest < ActiveSupport::TestCase
   fixtures :surveys
 
   def setup
-    @survey = surveys(:one) 
+    @survey = surveys(:one)
+    @question = questions(:one) 
 end
 
 test "enter an name" do
@@ -12,7 +13,7 @@ test "enter an name" do
 end
 
 test "select quantitative surveys  " do
-  assert_equal @survey.quantitative_questions(), [@survey]
+  assert_equal @survey.quantitative_questions(), [@question]
 end
 
 
