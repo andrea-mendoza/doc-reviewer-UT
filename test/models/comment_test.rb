@@ -8,6 +8,6 @@ class CommentTest < ActiveSupport::TestCase
   end
 
   test "enter an commentary" do
-    assert_equal @comment.commentary , "MyString"
+    assert_equal @comment.commentary , "MyText"
   end
 end
