@@ -1,7 +1,13 @@
 require 'test_helper'
 
 class CommentTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+    fixtures :comments
+
+  def setup
+    @comment = comments(:one)
+  end
+
+  test "enter an commentary" do
+    assert_equal @comment.commentary , "MyString"
+  end
 end
