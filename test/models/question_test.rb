@@ -14,4 +14,9 @@ class QuestionTest < ActiveSupport::TestCase
   test "has a maximum score   " do
     assert_equal 2, @question.max_score
   end
+
+  test "is quantitative " do
+    assert_equal 2, @question.is_quantitative?
+  end
+
 end
