@@ -12,8 +12,8 @@ class SurveyTest < ActiveSupport::TestCase
     assert_equal @survey.name , "FirstProfileRevision"
   end
 
-  test "select quantitative questions" do
-    assert_equal @survey.quantitative_questions(), [@question]
+  test "safe to remove" do
+    assert_equal 0, @survey.safe_to_remove?
   end
 
 end
