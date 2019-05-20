@@ -14,4 +14,5 @@ class CommentTest < ActiveSupport::TestCase
   test "enter an commentary" do
     assert_equal @comment.commentary , "MyText"
   end
+  
 end
