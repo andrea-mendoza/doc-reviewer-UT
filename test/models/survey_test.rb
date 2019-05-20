@@ -12,12 +12,12 @@ class SurveyTest < ActiveSupport::TestCase
     assert_equal @survey.name , "FirstProfileRevision"
   end
 
-  test 'valid name' do
-    assert @survey.valid?
+  test 'invalid name' do
+    assert_not @survey.valid?
   end
 
   test "safe to remove" do
-    assert @survey.safe_to_remove?
+    assert_not @survey.safe_to_remove?
   end
 
 end
