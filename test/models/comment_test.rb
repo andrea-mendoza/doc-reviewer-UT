@@ -7,8 +7,8 @@ class CommentTest < ActiveSupport::TestCase
     @comment = comments(:one)
   end
 
-  test 'valid comment' do
-    assert @comment.valid?
+  test 'invalid comment' do
+    assert_not @comment.valid?
   end
 
   test "enter an commentary" do
