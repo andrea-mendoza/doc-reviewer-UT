@@ -13,7 +13,7 @@ class SurveyTest < ActiveSupport::TestCase
   end
 
   test "safe to remove" do
-    assert_equal 0, @survey.safe_to_remove?
+    assert_equal 1, @survey.safe_to_remove?
   end
 
 end
