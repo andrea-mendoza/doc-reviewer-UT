@@ -1,6 +1,8 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  title: Introduction
+  type: Questions::Text
   description: First question
   max_score: 2
   survey: one
