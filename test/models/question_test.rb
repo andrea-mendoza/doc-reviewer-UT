@@ -30,7 +30,7 @@ class QuestionTest < ActiveSupport::TestCase
   end
 
   test "is not  quantitative " do
-    assert_equal 2, false 
+    assert_equal false, @question1.is_quantitative? 
   end
 
 
