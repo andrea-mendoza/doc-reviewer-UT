@@ -25,11 +25,11 @@ class QuestionTest < ActiveSupport::TestCase
     assert_equal "Texto", @question.display_type
   end
 
-  test "is quantitative " do
+  test "is quantitative  " do
     assert_equal 2, @question1.is_quantitative? 
   end
 
-  test "is quantitative " do
+  test "is not  quantitative " do
     assert_equal 2, false 
   end
 
