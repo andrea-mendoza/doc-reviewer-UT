@@ -5,6 +5,8 @@ class QuestionTest < ActiveSupport::TestCase
 
   def setup
     @question = questions(:one)
+    @question1 = questions(:two)
+
   end
 
   test "has a  description " do
@@ -15,12 +17,20 @@ class QuestionTest < ActiveSupport::TestCase
     assert_equal 2, @question.max_score
   end
 
-  test "display type " do
-    assert_equal "Type not set", @question.display_type
+  test "display type  not selected" do
+    assert_equal "Type not set", @question1.display_type
+  end
+
+  test "display type  selected text" do
+    assert_equal "Texto", @question.display_type
   end
 
   test "is quantitative " do
-    assert_equal 2, @question.is_quantitative? 
+    assert_equal 2, @question1.is_quantitative? 
+  end
+
+  test "is quantitative " do
+    assert_equal 2, false 
   end
 
 
