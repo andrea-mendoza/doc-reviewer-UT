@@ -11,3 +11,5 @@ two:
   description: First question
   max_score: 2
   survey: one
+  type: Questions::SelectOption
+ 
